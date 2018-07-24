@@ -1,0 +1,33 @@
+
+ul {
+  display: flex;
+  width: 700px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li {
+  width: 200px;
+  border: 1px solid black;
+  background-color: gray;
+  height: 200px;
+}
+
+.unselected:hover {
+  background-color: yellow;
+}
+
+.chosen {
+  background-color: white;
+  font-size: 100px;
+}
+
+.winner {
+  background-color: green;
+  color: white;
+}
+
+.loser {
+  color: red;
+  background-color: white;
+}
